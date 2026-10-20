@@ -29,4 +29,4 @@ These organization wordmarks were downloaded October 20, 2026 and retain their o
 
 ## Personal identity
 
-- `yc-logo.svg`: original YC monogram drawn as vector paths, using the site’s dark ink and teal palette. `yc-logo.png`, `favicon-32.png`, `apple-touch-icon.png`, and `/favicon.ico` are raster exports of the same geometry. Created for the site owner on October 20, 2026.
+- `yc-logo.svg`: original pure-black YC monogram drawn as connected vector paths on a transparent background; the Y shares its arms and stem junctions with the surrounding C. `yc-logo.png`, `favicon-32.png`, `apple-touch-icon.png`, and `/favicon.ico` are raster exports of the same geometry. Created for the site owner on October 20, 2026.
