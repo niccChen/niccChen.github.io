@@ -28,3 +28,6 @@ body{font-weight:400;-webkit-font-smoothing:antialiased}h1{font-size:39px;line-h
  .intro .links{grid-column:1 / -1;justify-content:flex-start;margin-top:12px}
  .work-bottom{flex-wrap:wrap}.date{white-space:normal}
 }
+
+/* Original brand artwork accompanies each contact link. */
+.links a{align-items:center;justify-content:flex-start;gap:9px;min-height:45px;padding:9px 12px}.links .brand-icon{width:24px;height:24px;object-fit:contain;display:block;flex-shrink:0}.links .link-label{color:var(--ink)}.links .link-arrow{margin-left:5px;font-size:12px}.links{gap:9px}
