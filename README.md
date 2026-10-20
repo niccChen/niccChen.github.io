@@ -6,13 +6,9 @@ A dependency-free static website for GitHub Pages, based on the supplied CV and 
 
 Open `index.html` in a browser, or run `python3 -m http.server 8080` in this folder.
 
-## Add your portrait
+## Portrait
 
-Save your photo as `assets/portrait.jpg`. In `index.html`, replace the `<div class="portrait" ...>...</div>` with:
-
-```html
-<img class="portrait" src="assets/portrait.jpg" alt="Yiyun (Nicole) Chen" style="object-fit:cover">
-```
+The homepage uses the supplied photo at `assets/portrait.jpg`. Its round framing is handled in CSS, with the original image preserved.
 
 ## Publish on GitHub Pages
 
@@ -28,6 +24,6 @@ The address above is a deployment target, not a verified live site. If the repos
 - Research review statuses and results reflect the supplied CV; update them when statuses change.
 - The homepage has a left profile sidebar with education and shortcuts; About, News, and selected coursework appear at right, followed by four navigation cards across the bottom. Research and project cards link to independent detail pages.
 - Locally hosted DM Sans and Lora typefaces are licensed under the SIL Open Font License; see assets/fonts/.
-- The portrait is a visible placeholder until a photo is supplied.
+- The portrait was supplied by the site owner on October 20, 2026.
 - No phone number, resume download, invented paper links, or unverified Scholar profile is published.
 - All asset references are relative, so the site can also be hosted under a repository subpath.

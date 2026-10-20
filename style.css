@@ -89,3 +89,6 @@ body{font-weight:400;-webkit-font-smoothing:antialiased}h1{font-size:39px;line-h
 @media(max-width:400px){.profile-sidebar{grid-template-columns:110px minmax(0,1fr);column-gap:17px}.profile-sidebar .portrait{width:110px;height:110px}.profile-name h1{font-size:30px}.profile-shortcuts{grid-template-columns:1fr 1fr}}
 
 .home-page>header>nav{max-width:1240px;padding-left:40px;padding-right:40px}@media(max-width:760px){.home-page>header>nav{padding-left:24px;padding-right:24px}}
+
+/* Frame the supplied portrait without changing the original photo. */
+.profile-sidebar .portrait--photo{background:none}.profile-sidebar .portrait--photo:after{display:none}.portrait--photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 40%;transform:scale(1.3);transform-origin:50% 44%}
