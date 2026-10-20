@@ -1,0 +1,3 @@
+Patent Agent: screenshot of the existing local web interface.
+Emory Compass: screenshot of the existing local frontend homepage.
+PostShield: existing application screenshot docs/assets/walkthrough-static.png, using demonstration workbooks.
