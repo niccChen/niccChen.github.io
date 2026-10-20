@@ -11,3 +11,7 @@ The Outlook, GitHub, and LinkedIn artwork has not been redrawn or recolored.
 ## Recreated organization mark
 
 - `eumma.svg`: vector recreation of the EUMMA logo from the reference screenshot supplied by the site owner on October 20, 2026. Links to https://mingketian.github.io/eumma-website/#/.
+
+## Supplied department wordmark
+
+- `emory-data-decision-sciences.png`: Emory College of Arts and Sciences, Department of Data and Decision Sciences wordmark, supplied by the site owner on October 20, 2026. Used without redrawing or recoloring.
