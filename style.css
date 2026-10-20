@@ -63,3 +63,5 @@ body{font-weight:400;-webkit-font-smoothing:antialiased}h1{font-size:39px;line-h
 .community-logo{display:block;width:210px;max-width:100%;flex-shrink:0}.community-logo img{display:block;width:100%;height:auto}@media(max-width:700px){.community-logo{width:180px}}
 
 .department-logo{display:block;width:340px;max-width:45%;height:auto;flex-shrink:0}@media(max-width:700px){.department-logo{max-width:100%}}
+
+.community-logo.eeif-logo{height:82px;overflow:hidden;border-radius:4px;background:#073765}.community-logo.eeif-logo img{height:100%;object-fit:cover;transform:scale(1.55)}

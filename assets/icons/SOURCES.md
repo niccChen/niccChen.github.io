@@ -15,3 +15,7 @@ The Outlook, GitHub, and LinkedIn artwork has not been redrawn or recolored.
 ## Supplied department wordmark
 
 - `emory-data-decision-sciences.png`: Emory College of Arts and Sciences, Department of Data and Decision Sciences wordmark, supplied by the site owner on October 20, 2026. Used without redrawing or recoloring.
+
+## Organization website assets
+
+- `eeif.png`: EEIF logo from https://emoryeconinvestmentforum.com/Logos/EEIF%20Logo_with_Line_cropped_final3.png, the logo used on the organization website. Downloaded October 20, 2026; original image retained, with display framing handled in CSS.
