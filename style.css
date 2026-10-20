@@ -66,20 +66,16 @@ body{font-weight:400;-webkit-font-smoothing:antialiased}h1{font-size:39px;line-h
 
 .community-logo.eeif-logo{height:82px;overflow:hidden;border-radius:4px;background:#073765}.community-logo.eeif-logo img{height:100%;object-fit:cover;transform:scale(1.55)}
 
-/* Homepage entry cards show real research, software, and community work. */
+/* Aligned homepage collages use real images without rotation or overlap. */
 .visual-entry-grid{gap:16px}
 .collage-card{min-height:350px;border:1px solid #dce5de;border-radius:12px;background:#fff;box-shadow:0 5px 18px #263d3010;isolation:isolate}
-.collage-art{inset:0 0 112px;background:radial-gradient(ellipse at 85% 0%,#fff9,transparent 65%),var(--collage-bg);border-bottom:1px solid #dce5de}
+.collage-art{inset:0 0 112px;display:grid;grid-template-rows:18px repeat(3,minmax(0,1fr));gap:7px;padding:12px;background:radial-gradient(ellipse at 85% 0%,#fff9,transparent 65%),var(--collage-bg);border-bottom:1px solid #dce5de}
 .collage-research{--collage-bg:#e0ece4;--collage-ink:#3e6c5f}.collage-projects{--collage-bg:#eee7d9;--collage-ink:#85724d}.collage-experience{--collage-bg:#e0e9ef;--collage-ink:#526f86}.collage-activities{--collage-bg:#eee4e1;--collage-ink:#8a645e}
-.collage-index{position:absolute;top:13px;left:15px;font-size:9px;line-height:1.5;letter-spacing:1.7px;font-weight:650;color:var(--collage-ink)}
-.collage-piece{display:block;position:absolute;width:84%;height:106px;padding:5px;background:white;border:1px solid #fff;border-radius:6px;box-shadow:0 7px 17px #1d303326;overflow:hidden;transition:transform .3s}
-.collage-piece img{display:block;width:100%;height:100%;object-fit:cover;object-position:top center;border-radius:2px}
-.collage-piece.piece-one{top:45px;left:3%;transform:rotate(-7deg);z-index:1}.collage-piece.piece-two{top:119px;left:19%;transform:rotate(7deg);z-index:2}.collage-piece.piece-three{top:171px;left:3%;transform:rotate(-5deg);z-index:3}
-.collage-research .collage-piece img{object-fit:contain}.collage-research .piece-one{top:46px;height:112px}.collage-research .piece-two{top:125px;height:105px}
-.collage-projects .collage-piece{height:95px}.collage-projects .piece-one{top:37px}.collage-projects .piece-two{top:104px}.collage-projects .piece-three{top:165px}
-.collage-experience .logo-piece{height:54px;padding:12px}.collage-experience .piece-one{top:42px}.collage-experience .piece-two{top:114px}.collage-experience .piece-three{top:175px;height:81px}.collage-experience .emory-piece{background:#0b2f54;border-color:#0b2f54}
-.collage-piece.logo-piece img{object-fit:contain;object-position:center}.collage-activities .piece-one{top:43px;height:67px;padding:9px}.collage-activities .piece-two{top:111px;height:76px;padding:0;background:#073765;border-color:#073765}.collage-activities .eeif-piece img{object-position:center;transform:scale(1.5)}.collage-activities .piece-three{top:187px;height:51px;padding:7px}
+.collage-index{font-size:9px;line-height:1.5;letter-spacing:1.7px;font-weight:650;color:var(--collage-ink)}
+.collage-piece{display:block;position:relative;min-height:0;padding:4px;background:#fff;border:1px solid #fff;border-radius:4px;box-shadow:0 2px 6px #1d30330c;overflow:hidden}
+.collage-piece img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;border-radius:2px}
+.collage-research .collage-art{grid-template-rows:18px repeat(2,minmax(0,1fr))}.collage-research .collage-piece img{object-fit:contain}
+.collage-experience .logo-piece{padding:11px}.collage-experience .emory-piece{background:#0b2f54;border-color:#0b2f54}.collage-piece.logo-piece img{object-fit:contain;object-position:center}.collage-experience .piece-three img{object-fit:contain}
+.collage-activities .activity-photo{padding:0;border:0}.collage-activities .piece-one img{object-position:center 64%}.collage-activities .piece-two img{object-position:center 73%}.collage-activities .piece-three img{object-position:center 71%}
 .collage-card .card-label{padding:18px 15px 19px;min-height:112px;background:#fff;color:var(--ink)}.collage-card .card-label h3{font-size:22px;line-height:1.45;padding-right:22px;letter-spacing:-.5px}.collage-card .card-label p{font-size:12px;line-height:1.65;max-width:150px;margin-top:6px;color:#687573;opacity:1}.collage-card .card-label>span{top:22px;right:13px;bottom:auto;font-size:19px;color:var(--collage-ink)}
-.collage-card:hover .piece-one{transform:rotate(-10deg) translateY(-2px)}.collage-card:hover .piece-two{transform:rotate(9deg) translateY(-3px)}.collage-card:hover .piece-three{transform:rotate(-7deg) translateY(-2px)}
-@media(max-width:700px){.visual-entry-grid{gap:14px}.collage-card{min-height:330px}.collage-card .card-label{padding-left:13px;padding-right:13px}.collage-card .card-label h3{font-size:21px}.collage-piece{width:85%}.collage-research .piece-one{top:40px}.collage-research .piece-two{top:108px}.collage-experience .piece-three{top:166px}.collage-activities .piece-three{top:172px}}
-@media(prefers-reduced-motion:reduce){.collage-piece{transition:none}.collage-card:hover .piece-one{transform:rotate(-7deg)}.collage-card:hover .piece-two{transform:rotate(7deg)}.collage-card:hover .piece-three{transform:rotate(-5deg)}}
+@media(max-width:700px){.visual-entry-grid{gap:14px}.collage-card{min-height:330px}.collage-art{padding:10px;gap:6px}.collage-card .card-label{padding-left:13px;padding-right:13px}.collage-card .card-label h3{font-size:21px}}
