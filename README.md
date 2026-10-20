@@ -22,7 +22,7 @@ The address above is a deployment target, not a verified live site. If the repos
 ## Content notes
 
 - Research review statuses and results reflect the supplied CV; update them when statuses change.
-- The homepage has a left profile sidebar with education and shortcuts; About, News, and selected coursework appear at right, followed by four navigation cards across the bottom. Research and project cards link to independent detail pages.
+- The homepage opens with a centered portrait, identity, approved About text, and contact links. Scrolling reveals an unboxed News list and a two-column grid of four category cards (one column on narrow phones). Research and project cards link to independent detail pages.
 - Locally hosted DM Sans and Lora typefaces are licensed under the SIL Open Font License; see assets/fonts/.
 - The portrait was supplied by the site owner on October 20, 2026.
 - No phone number, resume download, invented paper links, or unverified Scholar profile is published.
