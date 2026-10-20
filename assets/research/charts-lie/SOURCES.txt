@@ -1,0 +1,5 @@
+Figures rendered directly from the user-supplied CHI_2027_Zihan_Phoebe_Nicole.zip.
+counterfactual.png: main.tex Figure 1, figures/figure1_motivating_counterfactual.pdf
+pipeline.png: main.tex Figure 2, figures/figure2_benchmark_pipeline.pdf
+diagnostic.png: main.tex Figure 3, figures/figure3_primary_diagnostic.pdf
+Only figure images are included; the paper source and PDFs are not published.
