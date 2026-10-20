@@ -3,3 +3,4 @@ Emory Compass: screenshot of the existing local frontend homepage.
 PostShield: existing application screenshot docs/assets/walkthrough-static.png, using demonstration workbooks.
 PostShield banner: original SVG design; bank wordmark from the existing PostShield project asset docs/assets/psbc-wordmark.png.
 ECG reconstruction: existing project animation from digitize-ekg/docs/assets/walkthrough.gif, generated from a prepared trace crop and actual reconstruction outputs.
+RankLab: original SVG banner and plots generated from the committed math347 Experiment 1 and Experiment 3 CSVs by docs/build_showcase.py.
