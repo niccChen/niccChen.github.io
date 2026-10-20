@@ -26,3 +26,7 @@ The Outlook, GitHub, and LinkedIn artwork has not been redrawn or recolored.
 - `emory-university.png`: Emory University reverse wordmark used on the EEIF website, https://emoryeconinvestmentforum.com/Logos/EU_shield_hz_rv.png.
 
 These organization wordmarks were downloaded October 20, 2026 and retain their original artwork.
+
+## Personal identity
+
+- `yc-logo.svg`: original YC monogram drawn as vector paths, using the site’s dark ink and teal palette. `yc-logo.png`, `favicon-32.png`, `apple-touch-icon.png`, and `/favicon.ico` are raster exports of the same geometry. Created for the site owner on October 20, 2026.

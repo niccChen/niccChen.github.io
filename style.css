@@ -129,3 +129,6 @@ body{font-weight:400;-webkit-font-smoothing:antialiased}h1{font-size:39px;line-h
 @media(max-width:420px){.home-explore .entry-grid{grid-template-columns:1fr}.home-explore .collage-card{min-height:310px}.home-explore .collage-art{grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:14px minmax(0,1fr)}.home-explore .collage-experience .collage-art{grid-template-columns:1fr}.home-explore .collage-card .card-label h3{font-size:23px}.home-explore .collage-card .card-label p{font-size:13px;max-width:none}}
 
 @media(max-width:760px){.home-page>header>nav{padding-left:20px;padding-right:20px;gap:14px}.home-page>header>nav .wordmark{font-size:22px;flex-shrink:0}.home-page>header>nav div{flex-wrap:nowrap;gap:clamp(5px,1.6vw,10px)}.home-page>header>nav div a{font-size:clamp(8px,2.4vw,10px);letter-spacing:.2px;white-space:nowrap}}
+
+/* Original YC monogram shared by the header and browser icons. */
+nav .wordmark{display:flex;align-items:center;flex-shrink:0}.site-logo{display:block;width:40px;height:40px;transition:opacity .2s}a.wordmark:hover .site-logo{opacity:.8}@media(max-width:760px){.site-logo{width:34px;height:34px}}
