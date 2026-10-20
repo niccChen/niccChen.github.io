@@ -1,0 +1,2 @@
+epi-sst-architecture.png: /Users/chenyiyun/Desktop/Emory_25_Fall/research/PatchSSM/output/paper_aaai/model_overview_v3_candidate.png
+atsolver-architecture.png: /Users/chenyiyun/Desktop/Summer26/Agentic_Solver_Selection_paper/figures/ATSolver_Drawio_Editable_Package/ATSolver_Architecture_Preview.png

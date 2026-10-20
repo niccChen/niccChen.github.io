@@ -31,3 +31,6 @@ body{font-weight:400;-webkit-font-smoothing:antialiased}h1{font-size:39px;line-h
 
 /* Original brand artwork accompanies each contact link. */
 .links a{align-items:center;justify-content:flex-start;gap:9px;min-height:45px;padding:9px 12px}.links .brand-icon{width:24px;height:24px;object-fit:contain;display:block;flex-shrink:0}.links .link-label{color:var(--ink)}.links .link-arrow{margin-left:5px;font-size:12px}.links{gap:9px}
+
+/* Research architecture images remain fully visible in cards and detail pages. */
+.research-preview{height:200px;margin:-26px -26px 22px;padding:12px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:center}.research-preview img{display:block;width:100%;height:100%;object-fit:contain}.architecture-figure{margin:24px 0 28px}.architecture-figure>a{display:block;padding:12px;border:1px solid var(--line);background:#fff;cursor:zoom-in}.architecture-figure img{display:block;max-width:100%;width:100%;height:auto}.architecture-figure figcaption{font-size:12px;color:var(--muted);margin-top:9px;line-height:1.6}.work-card .work-bottom{margin-top:auto}.work-card>p{margin-bottom:23px}@media(max-width:700px){.research-preview{height:auto;aspect-ratio:2 / 1}.architecture-figure>a{padding:5px}}
