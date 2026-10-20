@@ -1,3 +1,3 @@
-EPI-SST: PatchSSM/output/paper_aaai/main.tex -> 4methods.tex:30 -> model_overview.pdf
-ATSolver: Agentic_Solver_Selection_paper/main.tex -> sections/03_method.tex:4 -> figures/system_overview.tex:3 -> figures/system_overview.pdf
-Only architecture PNGs rendered from the referenced figure files are included on this website.
+EPI-SST: rendered from the user-provided model_overview.pdf.
+ATSolver: rendered from the user-provided system_overview.pdf; outer blank page margins omitted in the webpage image.
+Only architecture images are published.
