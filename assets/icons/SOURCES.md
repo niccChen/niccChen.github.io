@@ -1,4 +1,4 @@
-# Official brand assets
+# Icon and logo sources
 
 These assets are the trademarks of their respective owners.
 
@@ -6,4 +6,8 @@ These assets are the trademarks of their respective owners.
 - GitHub: GitHub_Invertocat_Black.svg from https://brand.github.com/GitHub_Logos.zip ; brand guidance at https://brand.github.com/foundations/logo
 - LinkedIn: LI-In-Bug.png from https://content.linkedin.com/content/dam/me/business/en-us/amp/xbu/linkedin-revised-brand-guidelines/logos/in-logo.zip ; brand guidance at https://brand.linkedin.com/downloads
 
-The artwork has not been redrawn or recolored.
+The Outlook, GitHub, and LinkedIn artwork has not been redrawn or recolored.
+
+## Recreated organization mark
+
+- `eumma.svg`: vector recreation of the EUMMA logo from the reference screenshot supplied by the site owner on October 20, 2026. Links to https://mingketian.github.io/eumma-website/#/.
