@@ -19,3 +19,10 @@ The Outlook, GitHub, and LinkedIn artwork has not been redrawn or recolored.
 ## Organization website assets
 
 - `eeif.png`: EEIF logo from https://emoryeconinvestmentforum.com/Logos/EEIF%20Logo_with_Line_cropped_final3.png, the logo used on the organization website. Downloaded October 20, 2026; original image retained, with display framing handled in CSS.
+
+## Homepage experience collage
+
+- `outamation.png`: original wordmark from https://outamation.com/wp-content/uploads/2025/08/cropped-new-outamation-logo-2025.png, used by https://outamation.com/.
+- `emory-university.png`: Emory University reverse wordmark used on the EEIF website, https://emoryeconinvestmentforum.com/Logos/EU_shield_hz_rv.png.
+
+These organization wordmarks were downloaded October 20, 2026 and retain their original artwork.
