@@ -26,7 +26,7 @@ The address above is a deployment target, not a verified live site. If the repos
 ## Content notes
 
 - Research review statuses and results reflect the supplied CV; update them when statuses change.
-- Affiliation and self-introduction are on the first screen, followed by News, Education, and navigation cards. Research and project cards link to independent detail pages.
+- The homepage has a left profile sidebar with education and shortcuts; About, News, and selected coursework appear at right, followed by four navigation cards across the bottom. Research and project cards link to independent detail pages.
 - Locally hosted DM Sans and Lora typefaces are licensed under the SIL Open Font License; see assets/fonts/.
 - The portrait is a visible placeholder until a photo is supplied.
 - No phone number, resume download, invented paper links, or unverified Scholar profile is published.
